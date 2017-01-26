@@ -1,5 +1,7 @@
 const Px = require('px');
 const fs = require('fs');
+const csvWriter = require('csv-write-stream');
+
 
 function cleanUnitValue(value) {
   if(isCountryValue(value)) return value.replace("Schweiz", "Switzerland");
@@ -43,40 +45,40 @@ function* datumIndizes(valCounts) {
   const dimension = valCounts.length;
   const indizes = [];
 
-	for(var i = 0; i < valCounts[0]; i++) {
+  for(var i = 0; i < valCounts[0]; i++) {
     if(dimension === 1) {
-      indizes.push([i]);
+      yield [i];
     }
 
-		for(var j = 0; j < valCounts[1]; j++) {
+    for(var j = 0; j < valCounts[1]; j++) {
       if(dimension === 2) {
-				indizes.push([i, j]);
+        yield [i, j];
         continue;
       }
-			for(var k = 0; k < valCounts[2]; k++) {
+      for(var k = 0; k < valCounts[2]; k++) {
         if(dimension === 3) {
-					indizes.push([i, j, k]);
-					continue;
+          yield [i, j, k];
+          continue;
         }
-				for(var l = 0; l < valCounts[3]; l++) {
-					if(dimension === 4) {
-						indizes.push([i, j, k, l]);
-						continue;
+        for(var l = 0; l < valCounts[3]; l++) {
+          if(dimension === 4) {
+            yield [i, j, k, l];
+            continue;
           }
-					for(var m = 0; m < valCounts[4]; m++) {
-						if(dimension === 5) {
-							indizes.push([i, j, k, l, m]);
-							continue;
+          for(var m = 0; m < valCounts[4]; m++) {
+            if(dimension === 5) {
+              yield [i, j, k, l, m];
+              continue;
             }
-						for(var n = 0; n < valCounts[5]; n++) {
-							if(dimension === 6) {
-								indizes.push([i, j, k , l, m, n]);
-								continue;
-							} else {
+            for(var n = 0; n < valCounts[5]; n++) {
+              if(dimension === 6) {
+                yield [i, j, k , l, m, n];
+                continue;
+              } else {
                 throw "Only at max 6 dimensions supported";
               }
-						}
-					}
+            }
+          }
         }
       }
     }
@@ -85,44 +87,38 @@ function* datumIndizes(valCounts) {
   return indizes;
 }
 
-function allDatums(px) {
+function* allDatums(px) {
   const counts = px.valCounts()
   const indizes = datumIndizes(counts);
-  const datums = [];
-  indizes.forEach(index => {
-    const datum = []
-    index.forEach((i, j) => {
-      datum.push(px.values(j)[i]);
-    });
-    datum.push(px.datum(index));
-    datums.push(datum);
-  });
-  return datums;
+  for(var index of indizes) {
+    yield index.map((valueIdx, variableIdx) => {
+      return px.values(variableIdx)[valueIdx];
+    }).concat([px.datum(index)]);
+  }
 }
 
 fs.readFile('./px-x-0102020000_402.px', 'utf8', function(err, data) {
   if(err) throw err;
+
   px = new Px(data);
-  const meta = px.metadata;
   const vars = px.variables();
-  console.log(px.valCounts());
+  var headers = vars.concat(['Datum'])
+  if(isCommunityVariable(vars[0])) {
+    headers = ['Unit Type', 'Unit'].concat(headers.slice(1))
+  }
+
+  const writer = csvWriter({
+    headers: headers
+  })
+  writer.pipe(process.stdout);
 
 
-  console.log('Unit', "\t", vars[0], "\t", vars[1], "\t", vars[2], '\t', 'Datum')
-  allDatums(px).forEach(datum => {
-    console.log(datum);
-  });
-
-  const counts = px.valCounts()
-
-	for(var i = 0; i < counts[0]; i++) {
-		for(var j = 0; j < counts[1]; j++) {
-			for(var k = 0; k < counts[2]; k++) {
-				console.log(unitFromValue(px.values(0)[i]), '\t', cleanUnitValue(px.values(0)[i]), '\t', px.values(1)[j], '\t', px.values(2)[k], '\t', px.datum([i, j, k]))
-			}
-		}
-	}
-
-
-  const values = vars.map(variable => px.values(variable));
+  for(datum of allDatums(px)) {
+    if(isCommunityVariable(vars[0])) {
+      writer.write([unitFromValue(datum[0]), cleanUnitValue(datum[0])].concat(datum.slice(1)))
+    } else {
+      writer.write(datum)
+    }
+  }
+  writer.end();
 });
