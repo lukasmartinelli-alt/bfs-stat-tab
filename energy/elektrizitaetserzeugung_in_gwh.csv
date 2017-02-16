@@ -1,0 +1,316 @@
+GWh,Jahr,Kraftwerkstyp
+31273,1970,Wasserkraftwerke
+1850,1970,Kernkraftwerke
+1763,1970,Konventionell thermische Kraftwerke
+"""...""",1970,Diverse Erneuerbare
+34886,1970,Bruttoerzeugung
+965,1970,>> Abzüglich Verbrauch der Speicherpumpen
+33921,1970,Nettoerzeugung
+27563,1971,Wasserkraftwerke
+1843,1971,Kernkraftwerke
+2181,1971,Konventionell thermische Kraftwerke
+"""...""",1971,Diverse Erneuerbare
+31587,1971,Bruttoerzeugung
+1377,1971,>> Abzüglich Verbrauch der Speicherpumpen
+30210,1971,Nettoerzeugung
+25277,1972,Wasserkraftwerke
+4650,1972,Kernkraftwerke
+2371,1972,Konventionell thermische Kraftwerke
+"""...""",1972,Diverse Erneuerbare
+32298,1972,Bruttoerzeugung
+1644,1972,>> Abzüglich Verbrauch der Speicherpumpen
+30654,1972,Nettoerzeugung
+28825,1973,Wasserkraftwerke
+5896,1973,Kernkraftwerke
+2434,1973,Konventionell thermische Kraftwerke
+"""...""",1973,Diverse Erneuerbare
+37155,1973,Bruttoerzeugung
+1724,1973,>> Abzüglich Verbrauch der Speicherpumpen
+35431,1973,Nettoerzeugung
+28563,1974,Wasserkraftwerke
+6730,1974,Kernkraftwerke
+2117,1974,Konventionell thermische Kraftwerke
+"""...""",1974,Diverse Erneuerbare
+37410,1974,Bruttoerzeugung
+1541,1974,>> Abzüglich Verbrauch der Speicherpumpen
+35869,1974,Nettoerzeugung
+33974,1975,Wasserkraftwerke
+7391,1975,Kernkraftwerke
+1629,1975,Konventionell thermische Kraftwerke
+"""...""",1975,Diverse Erneuerbare
+42994,1975,Bruttoerzeugung
+1198,1975,>> Abzüglich Verbrauch der Speicherpumpen
+41796,1975,Nettoerzeugung
+26622,1976,Wasserkraftwerke
+7561,1976,Kernkraftwerke
+2058,1976,Konventionell thermische Kraftwerke
+"""...""",1976,Diverse Erneuerbare
+36241,1976,Bruttoerzeugung
+1344,1976,>> Abzüglich Verbrauch der Speicherpumpen
+34897,1976,Nettoerzeugung
+36290,1977,Wasserkraftwerke
+7728,1977,Kernkraftwerke
+1885,1977,Konventionell thermische Kraftwerke
+"""...""",1977,Diverse Erneuerbare
+45903,1977,Bruttoerzeugung
+1277,1977,>> Abzüglich Verbrauch der Speicherpumpen
+44626,1977,Nettoerzeugung
+32510,1978,Wasserkraftwerke
+7995,1978,Kernkraftwerke
+1845,1978,Konventionell thermische Kraftwerke
+"""...""",1978,Diverse Erneuerbare
+42350,1978,Bruttoerzeugung
+1361,1978,>> Abzüglich Verbrauch der Speicherpumpen
+40989,1978,Nettoerzeugung
+32345,1979,Wasserkraftwerke
+11243,1979,Kernkraftwerke
+1963,1979,Konventionell thermische Kraftwerke
+"""...""",1979,Diverse Erneuerbare
+45551,1979,Bruttoerzeugung
+1586,1979,>> Abzüglich Verbrauch der Speicherpumpen
+43965,1979,Nettoerzeugung
+33542,1980,Wasserkraftwerke
+13663,1980,Kernkraftwerke
+957,1980,Konventionell thermische Kraftwerke
+"""...""",1980,Diverse Erneuerbare
+48162,1980,Bruttoerzeugung
+1531,1980,>> Abzüglich Verbrauch der Speicherpumpen
+46631,1980,Nettoerzeugung
+36097,1981,Wasserkraftwerke
+14462,1981,Kernkraftwerke
+956,1981,Konventionell thermische Kraftwerke
+"""...""",1981,Diverse Erneuerbare
+51515,1981,Bruttoerzeugung
+1395,1981,>> Abzüglich Verbrauch der Speicherpumpen
+50120,1981,Nettoerzeugung
+37035,1982,Wasserkraftwerke
+14276,1982,Kernkraftwerke
+974,1982,Konventionell thermische Kraftwerke
+"""...""",1982,Diverse Erneuerbare
+52285,1982,Bruttoerzeugung
+1532,1982,>> Abzüglich Verbrauch der Speicherpumpen
+50753,1982,Nettoerzeugung
+36002,1983,Wasserkraftwerke
+14821,1983,Kernkraftwerke
+996,1983,Konventionell thermische Kraftwerke
+"""...""",1983,Diverse Erneuerbare
+51819,1983,Bruttoerzeugung
+1346,1983,>> Abzüglich Verbrauch der Speicherpumpen
+50473,1983,Nettoerzeugung
+30872,1984,Wasserkraftwerke
+17396,1984,Kernkraftwerke
+884,1984,Konventionell thermische Kraftwerke
+"""...""",1984,Diverse Erneuerbare
+49152,1984,Bruttoerzeugung
+1444,1984,>> Abzüglich Verbrauch der Speicherpumpen
+47708,1984,Nettoerzeugung
+32677,1985,Wasserkraftwerke
+21281,1985,Kernkraftwerke
+869,1985,Konventionell thermische Kraftwerke
+"""...""",1985,Diverse Erneuerbare
+54827,1985,Bruttoerzeugung
+1364,1985,>> Abzüglich Verbrauch der Speicherpumpen
+53463,1985,Nettoerzeugung
+33589,1986,Wasserkraftwerke
+21303,1986,Kernkraftwerke
+988,1986,Konventionell thermische Kraftwerke
+"""...""",1986,Diverse Erneuerbare
+55880,1986,Bruttoerzeugung
+1461,1986,>> Abzüglich Verbrauch der Speicherpumpen
+54419,1986,Nettoerzeugung
+35412,1987,Wasserkraftwerke
+21701,1987,Kernkraftwerke
+1048,1987,Konventionell thermische Kraftwerke
+"""...""",1987,Diverse Erneuerbare
+58161,1987,Bruttoerzeugung
+1564,1987,>> Abzüglich Verbrauch der Speicherpumpen
+56597,1987,Nettoerzeugung
+36439,1988,Wasserkraftwerke
+21502,1988,Kernkraftwerke
+1023,1988,Konventionell thermische Kraftwerke
+"""...""",1988,Diverse Erneuerbare
+58964,1988,Bruttoerzeugung
+1445,1988,>> Abzüglich Verbrauch der Speicherpumpen
+57519,1988,Nettoerzeugung
+30485,1989,Wasserkraftwerke
+21543,1989,Kernkraftwerke
+1082,1989,Konventionell thermische Kraftwerke
+"""...""",1989,Diverse Erneuerbare
+53110,1989,Bruttoerzeugung
+1454,1989,>> Abzüglich Verbrauch der Speicherpumpen
+51656,1989,Nettoerzeugung
+30675,1990,Wasserkraftwerke
+22298,1990,Kernkraftwerke
+1013,1990,Konventionell thermische Kraftwerke
+88,1990,Diverse Erneuerbare
+54074,1990,Bruttoerzeugung
+1695,1990,>> Abzüglich Verbrauch der Speicherpumpen
+52379,1990,Nettoerzeugung
+33082,1991,Wasserkraftwerke
+21654,1991,Kernkraftwerke
+1247,1991,Konventionell thermische Kraftwerke
+95,1991,Diverse Erneuerbare
+56078,1991,Bruttoerzeugung
+1946,1991,>> Abzüglich Verbrauch der Speicherpumpen
+54132,1991,Nettoerzeugung
+33725,1992,Wasserkraftwerke
+22121,1992,Kernkraftwerke
+1393,1992,Konventionell thermische Kraftwerke
+109,1992,Diverse Erneuerbare
+57348,1992,Bruttoerzeugung
+1438,1992,>> Abzüglich Verbrauch der Speicherpumpen
+55910,1992,Nettoerzeugung
+36253,1993,Wasserkraftwerke
+22029,1993,Kernkraftwerke
+913,1993,Konventionell thermische Kraftwerke
+118,1993,Diverse Erneuerbare
+59313,1993,Bruttoerzeugung
+1186,1993,>> Abzüglich Verbrauch der Speicherpumpen
+58127,1993,Nettoerzeugung
+39556,1994,Wasserkraftwerke
+22984,1994,Kernkraftwerke
+988,1994,Konventionell thermische Kraftwerke
+133,1994,Diverse Erneuerbare
+63661,1994,Bruttoerzeugung
+1271,1994,>> Abzüglich Verbrauch der Speicherpumpen
+62390,1994,Nettoerzeugung
+35597,1995,Wasserkraftwerke
+23486,1995,Kernkraftwerke
+1137,1995,Konventionell thermische Kraftwerke
+138,1995,Diverse Erneuerbare
+60358,1995,Bruttoerzeugung
+1520,1995,>> Abzüglich Verbrauch der Speicherpumpen
+58838,1995,Nettoerzeugung
+29698,1996,Wasserkraftwerke
+23719,1996,Kernkraftwerke
+1556,1996,Konventionell thermische Kraftwerke
+147,1996,Diverse Erneuerbare
+55120,1996,Bruttoerzeugung
+1754,1996,>> Abzüglich Verbrauch der Speicherpumpen
+53366,1996,Nettoerzeugung
+34794,1997,Wasserkraftwerke
+23971,1997,Kernkraftwerke
+1686,1997,Konventionell thermische Kraftwerke
+149,1997,Diverse Erneuerbare
+60600,1997,Bruttoerzeugung
+1519,1997,>> Abzüglich Verbrauch der Speicherpumpen
+59081,1997,Nettoerzeugung
+34295,1998,Wasserkraftwerke
+24368,1998,Kernkraftwerke
+2124,1998,Konventionell thermische Kraftwerke
+161,1998,Diverse Erneuerbare
+60948,1998,Bruttoerzeugung
+1620,1998,>> Abzüglich Verbrauch der Speicherpumpen
+59328,1998,Nettoerzeugung
+40616,1999,Wasserkraftwerke
+23523,1999,Kernkraftwerke
+2386,1999,Konventionell thermische Kraftwerke
+168,1999,Diverse Erneuerbare
+66693,1999,Bruttoerzeugung
+1408,1999,>> Abzüglich Verbrauch der Speicherpumpen
+65285,1999,Nettoerzeugung
+37851,2000,Wasserkraftwerke
+24949,2000,Kernkraftwerke
+2372,2000,Konventionell thermische Kraftwerke
+176,2000,Diverse Erneuerbare
+65348,2000,Bruttoerzeugung
+1974,2000,>> Abzüglich Verbrauch der Speicherpumpen
+63374,2000,Nettoerzeugung
+42261,2001,Wasserkraftwerke
+25293,2001,Kernkraftwerke
+2433,2001,Konventionell thermische Kraftwerke
+187,2001,Diverse Erneuerbare
+70174,2001,Bruttoerzeugung
+1947,2001,>> Abzüglich Verbrauch der Speicherpumpen
+68227,2001,Nettoerzeugung
+36513,2002,Wasserkraftwerke
+25692,2002,Kernkraftwerke
+2612,2002,Konventionell thermische Kraftwerke
+194,2002,Diverse Erneuerbare
+65011,2002,Bruttoerzeugung
+2418,2002,>> Abzüglich Verbrauch der Speicherpumpen
+62593,2002,Nettoerzeugung
+36445,2003,Wasserkraftwerke
+25931,2003,Kernkraftwerke
+2689,2003,Konventionell thermische Kraftwerke
+201,2003,Diverse Erneuerbare
+65266,2003,Bruttoerzeugung
+2893,2003,>> Abzüglich Verbrauch der Speicherpumpen
+62373,2003,Nettoerzeugung
+35117,2004,Wasserkraftwerke
+25432,2004,Kernkraftwerke
+2776,2004,Konventionell thermische Kraftwerke
+198,2004,Diverse Erneuerbare
+63523,2004,Bruttoerzeugung
+2433,2004,>> Abzüglich Verbrauch der Speicherpumpen
+61090,2004,Nettoerzeugung
+32759,2005,Wasserkraftwerke
+22020,2005,Kernkraftwerke
+2932,2005,Konventionell thermische Kraftwerke
+207,2005,Diverse Erneuerbare
+57918,2005,Bruttoerzeugung
+2631,2005,>> Abzüglich Verbrauch der Speicherpumpen
+55287,2005,Nettoerzeugung
+32557,2006,Wasserkraftwerke
+26244,2006,Kernkraftwerke
+3104,2006,Konventionell thermische Kraftwerke
+236,2006,Diverse Erneuerbare
+62141,2006,Bruttoerzeugung
+2720,2006,>> Abzüglich Verbrauch der Speicherpumpen
+59421,2006,Nettoerzeugung
+36373,2007,Wasserkraftwerke
+26344,2007,Kernkraftwerke
+2894,2007,Konventionell thermische Kraftwerke
+305,2007,Diverse Erneuerbare
+65916,2007,Bruttoerzeugung
+2104,2007,>> Abzüglich Verbrauch der Speicherpumpen
+63812,2007,Nettoerzeugung
+37559,2008,Wasserkraftwerke
+26132,2008,Kernkraftwerke
+2913,2008,Konventionell thermische Kraftwerke
+363,2008,Diverse Erneuerbare
+66967,2008,Bruttoerzeugung
+2685,2008,>> Abzüglich Verbrauch der Speicherpumpen
+64282,2008,Nettoerzeugung
+37136,2009,Wasserkraftwerke
+26119,2009,Kernkraftwerke
+2817,2009,Konventionell thermische Kraftwerke
+422,2009,Diverse Erneuerbare
+66494,2009,Bruttoerzeugung
+2523,2009,>> Abzüglich Verbrauch der Speicherpumpen
+63971,2009,Nettoerzeugung
+37450,2010,Wasserkraftwerke
+25205,2010,Kernkraftwerke
+3123,2010,Konventionell thermische Kraftwerke
+474,2010,Diverse Erneuerbare
+66252,2010,Bruttoerzeugung
+2494,2010,>> Abzüglich Verbrauch der Speicherpumpen
+63758,2010,Nettoerzeugung
+33795,2011,Wasserkraftwerke
+25560,2011,Kernkraftwerke
+2866,2011,Konventionell thermische Kraftwerke
+660,2011,Diverse Erneuerbare
+62881,2011,Bruttoerzeugung
+2466,2011,>> Abzüglich Verbrauch der Speicherpumpen
+60415,2011,Nettoerzeugung
+39906,2012,Wasserkraftwerke
+24345,2012,Kernkraftwerke
+2868,2012,Konventionell thermische Kraftwerke
+900,2012,Diverse Erneuerbare
+68019,2012,Bruttoerzeugung
+2411,2012,>> Abzüglich Verbrauch der Speicherpumpen
+65608,2012,Nettoerzeugung
+39572,2013,Wasserkraftwerke
+24871,2013,Kernkraftwerke
+2721,2013,Konventionell thermische Kraftwerke
+1148,2013,Diverse Erneuerbare
+68312,2013,Bruttoerzeugung
+2132,2013,>> Abzüglich Verbrauch der Speicherpumpen
+66180,2013,Nettoerzeugung
+39308,2014,Wasserkraftwerke
+26370,2014,Kernkraftwerke
+2447,2014,Konventionell thermische Kraftwerke
+1508,2014,Diverse Erneuerbare
+69633,2014,Bruttoerzeugung
+2355,2014,>> Abzüglich Verbrauch der Speicherpumpen
+67278,2014,Nettoerzeugung
